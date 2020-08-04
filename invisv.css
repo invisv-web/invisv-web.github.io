@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #484d5c;
+}
+
+#honeycomb {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background: center url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(10,10,10)' viewBox='0 0 100 169.5'%3E%3Cpolygon style='stroke:purple;stroke-width:1' points='50,34.75 93.5,59.75 93.5,109.75 50,134.75 6.5,109.75 6.5,59.75'%3E%3C/polygon%3E%3Cpolygon points='0,-50 43.5,-25 43.5,25 0,50 -43.5,25 -43.5,-25'%3E%3C/polygon%3E%3Cpolygon points='100,-50 143.5,-25 143.5,25 100,50 56.5,25 56.5,-25'%3E%3C/polygon%3E%3Cpolygon points='0,119.5 43.5,144.5 43.5,194.5 0,219.5 -43.5,194.5 -43.5,144.5'%3E%3C/polygon%3E%3Cpolygon points='100,119.5 143.5,144.5 143.5,194.5 100,219.5 56.5,194.5 56.5,144.5'%3E%3C/polygon%3E%3C/svg%3E");
+  background-size: 70px;
+  opacity: 0.4;
+}
+
+#centertext {
+  position: fixed;
+  transform: translate(30%, 50%);
+}
+
+#banner {
+  color: #ffce00;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16vw;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+#subtitle {
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+  color: #c0ccd4;
+}
+
+#email {
+  font-family: 'Open Sans', serif;
+  font-weight: 100;
+  font-size: 1.5vw;
+  color: #c0ccd4;
+}
+
+a {
+  background-color: #aa0000;
+  color: white;
+  padding: 0.4em 0.5em;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+table {
+  border: none;
+}
